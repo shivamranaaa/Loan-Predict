@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan prediction</title>
+</head>
+<body>
+    <h1>This is Loan Prediction Project</h1>
+    <form action="/predict" method="POST">
+        <input type="text" name="first" placeholder="first" required="required"/>
+        <input type="text" name="second" placeholder="second" required="required"/>
+        <input type="text" name="third" placeholder="third" required="required"/>
+        <input type="text" name="fourth" placeholder="fourth" required="required"/>
+
+        <button type="submit">Calculate</button>
+    </form>
+    <br>
+    <br>
+    {{output}}
+</body>
+</html>
